@@ -9,6 +9,8 @@ const problemRoutes = require('./routes/problemRoutes');
 const cors = require('cors');
 const fetchAllContests = require('./fetchContests');
 const Contest = require('./models/Contest');
+const mongoUrl = import.meta.process.env.MONGO_URL;
+
 
 const app = express();
 app.use(cors());
