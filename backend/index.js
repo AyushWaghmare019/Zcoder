@@ -15,7 +15,7 @@ const mongoUrl = import.meta.process.env.MONGO_URL;
 const app = express();
 app.use(cors());
 
-mongoose.connect('mongodb+srv://molik28:molik%402801@cluster0.hffl48d.mongodb.net/', {
+mongoose.connect('mongodb+srv://jiaayush8:OruEv59GfqeKbWCM@cluster0.ixqc01r.mongodb.net/livechat?retryWrites=true&w=majority&appName=Cluster0', {
   useNewUrlParser: true,
   useUnifiedTopology: true
 }).then(() => {
